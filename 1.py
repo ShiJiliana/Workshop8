@@ -10,6 +10,5 @@ for i in range(500):
 for j in range(len(b) - 1):
     if b[j] < b[j+1]:
         b_new.insert(0, b[j+1])
-    j += 1
 
 print('Лучший результат игры:', b_new[0])
